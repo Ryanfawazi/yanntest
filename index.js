@@ -207,7 +207,8 @@ function doProgress()
 	}
 }
 console.log(color(figlet.textSync(`${settings.NamaBot}`, {
-		font: 'Standard',
+		
+font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
 		width: 80,
