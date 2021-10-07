@@ -8,6 +8,7 @@ const fs = require("fs")
 const util = require('util')
 const figlet = require('figlet')
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
+https:/const term = require('terminal-kit').terminal
 const fetch = require('node-fetch')
 const { color, bgcolor } = require('./lib/color')
 const { exec } = require('child_process')
